@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222C808228CA45C70039140D /* Dynamic_IslandsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222C808128CA45C70039140D /* Dynamic_IslandsApp.swift */; };
+		222C808428CA45C70039140D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222C808328CA45C70039140D /* ContentView.swift */; };
+		222C808628CA45C90039140D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222C808528CA45C90039140D /* Assets.xcassets */; };
+		222C808928CA45C90039140D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222C808828CA45C90039140D /* Preview Assets.xcassets */; };
+		222C809328CA45C90039140D /* Dynamic_IslandsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222C809228CA45C90039140D /* Dynamic_IslandsTests.swift */; };
+		222C809D28CA45C90039140D /* Dynamic_IslandsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222C809C28CA45C90039140D /* Dynamic_IslandsUITests.swift */; };
+		222C809F28CA45C90039140D /* Dynamic_IslandsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222C809E28CA45C90039140D /* Dynamic_IslandsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		222C808F28CA45C90039140D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 222C807628CA45C70039140D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 222C807D28CA45C70039140D;
+			remoteInfo = "Dynamic Islands";
+		};
+		222C809928CA45C90039140D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 222C807628CA45C70039140D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 222C807D28CA45C70039140D;
+			remoteInfo = "Dynamic Islands";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		222C807E28CA45C70039140D /* Dynamic Islands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dynamic Islands.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		222C808128CA45C70039140D /* Dynamic_IslandsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic_IslandsApp.swift; sourceTree = "<group>"; };
+		222C808328CA45C70039140D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		222C808528CA45C90039140D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		222C808828CA45C90039140D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		222C808E28CA45C90039140D /* Dynamic IslandsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dynamic IslandsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		222C809228CA45C90039140D /* Dynamic_IslandsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic_IslandsTests.swift; sourceTree = "<group>"; };
+		222C809828CA45C90039140D /* Dynamic IslandsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dynamic IslandsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		222C809C28CA45C90039140D /* Dynamic_IslandsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic_IslandsUITests.swift; sourceTree = "<group>"; };
+		222C809E28CA45C90039140D /* Dynamic_IslandsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic_IslandsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		222C807B28CA45C70039140D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222C808B28CA45C90039140D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222C809528CA45C90039140D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		222C807528CA45C70039140D = {
+			isa = PBXGroup;
+			children = (
+				222C808028CA45C70039140D /* Dynamic Islands */,
+				222C809128CA45C90039140D /* Dynamic IslandsTests */,
+				222C809B28CA45C90039140D /* Dynamic IslandsUITests */,
+				222C807F28CA45C70039140D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		222C807F28CA45C70039140D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				222C807E28CA45C70039140D /* Dynamic Islands.app */,
+				222C808E28CA45C90039140D /* Dynamic IslandsTests.xctest */,
+				222C809828CA45C90039140D /* Dynamic IslandsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		222C808028CA45C70039140D /* Dynamic Islands */ = {
+			isa = PBXGroup;
+			children = (
+				222C808128CA45C70039140D /* Dynamic_IslandsApp.swift */,
+				222C808328CA45C70039140D /* ContentView.swift */,
+				222C808528CA45C90039140D /* Assets.xcassets */,
+				222C808728CA45C90039140D /* Preview Content */,
+			);
+			path = "Dynamic Islands";
+			sourceTree = "<group>";
+		};
+		222C808728CA45C90039140D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				222C808828CA45C90039140D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		222C809128CA45C90039140D /* Dynamic IslandsTests */ = {
+			isa = PBXGroup;
+			children = (
+				222C809228CA45C90039140D /* Dynamic_IslandsTests.swift */,
+			);
+			path = "Dynamic IslandsTests";
+			sourceTree = "<group>";
+		};
+		222C809B28CA45C90039140D /* Dynamic IslandsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				222C809C28CA45C90039140D /* Dynamic_IslandsUITests.swift */,
+				222C809E28CA45C90039140D /* Dynamic_IslandsUITestsLaunchTests.swift */,
+			);
+			path = "Dynamic IslandsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		222C807D28CA45C70039140D /* Dynamic Islands */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222C80A228CA45C90039140D /* Build configuration list for PBXNativeTarget "Dynamic Islands" */;
+			buildPhases = (
+				222C807A28CA45C70039140D /* Sources */,
+				222C807B28CA45C70039140D /* Frameworks */,
+				222C807C28CA45C70039140D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dynamic Islands";
+			productName = "Dynamic Islands";
+			productReference = 222C807E28CA45C70039140D /* Dynamic Islands.app */;
+			productType = "com.apple.product-type.application";
+		};
+		222C808D28CA45C90039140D /* Dynamic IslandsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222C80A528CA45C90039140D /* Build configuration list for PBXNativeTarget "Dynamic IslandsTests" */;
+			buildPhases = (
+				222C808A28CA45C90039140D /* Sources */,
+				222C808B28CA45C90039140D /* Frameworks */,
+				222C808C28CA45C90039140D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				222C809028CA45C90039140D /* PBXTargetDependency */,
+			);
+			name = "Dynamic IslandsTests";
+			productName = "Dynamic IslandsTests";
+			productReference = 222C808E28CA45C90039140D /* Dynamic IslandsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		222C809728CA45C90039140D /* Dynamic IslandsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222C80A828CA45C90039140D /* Build configuration list for PBXNativeTarget "Dynamic IslandsUITests" */;
+			buildPhases = (
+				222C809428CA45C90039140D /* Sources */,
+				222C809528CA45C90039140D /* Frameworks */,
+				222C809628CA45C90039140D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				222C809A28CA45C90039140D /* PBXTargetDependency */,
+			);
+			name = "Dynamic IslandsUITests";
+			productName = "Dynamic IslandsUITests";
+			productReference = 222C809828CA45C90039140D /* Dynamic IslandsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		222C807628CA45C70039140D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					222C807D28CA45C70039140D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					222C808D28CA45C90039140D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 222C807D28CA45C70039140D;
+					};
+					222C809728CA45C90039140D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 222C807D28CA45C70039140D;
+					};
+				};
+			};
+			buildConfigurationList = 222C807928CA45C70039140D /* Build configuration list for PBXProject "Dynamic Islands" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 222C807528CA45C70039140D;
+			productRefGroup = 222C807F28CA45C70039140D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				222C807D28CA45C70039140D /* Dynamic Islands */,
+				222C808D28CA45C90039140D /* Dynamic IslandsTests */,
+				222C809728CA45C90039140D /* Dynamic IslandsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		222C807C28CA45C70039140D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222C808928CA45C90039140D /* Preview Assets.xcassets in Resources */,
+				222C808628CA45C90039140D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222C808C28CA45C90039140D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222C809628CA45C90039140D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		222C807A28CA45C70039140D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222C808428CA45C70039140D /* ContentView.swift in Sources */,
+				222C808228CA45C70039140D /* Dynamic_IslandsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222C808A28CA45C90039140D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222C809328CA45C90039140D /* Dynamic_IslandsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222C809428CA45C90039140D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222C809D28CA45C90039140D /* Dynamic_IslandsUITests.swift in Sources */,
+				222C809F28CA45C90039140D /* Dynamic_IslandsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		222C809028CA45C90039140D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 222C807D28CA45C70039140D /* Dynamic Islands */;
+			targetProxy = 222C808F28CA45C90039140D /* PBXContainerItemProxy */;
+		};
+		222C809A28CA45C90039140D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 222C807D28CA45C70039140D /* Dynamic Islands */;
+			targetProxy = 222C809928CA45C90039140D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		222C80A028CA45C90039140D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		222C80A128CA45C90039140D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		222C80A328CA45C90039140D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dynamic Islands/Preview Content\"";
+				DEVELOPMENT_TEAM = 647MFA6TDC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sevio-Correa.Dynamic-Islands";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		222C80A428CA45C90039140D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dynamic Islands/Preview Content\"";
+				DEVELOPMENT_TEAM = 647MFA6TDC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sevio-Correa.Dynamic-Islands";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		222C80A628CA45C90039140D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 647MFA6TDC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sevio-Correa.Dynamic-IslandsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dynamic Islands.app/Dynamic Islands";
+			};
+			name = Debug;
+		};
+		222C80A728CA45C90039140D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 647MFA6TDC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sevio-Correa.Dynamic-IslandsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dynamic Islands.app/Dynamic Islands";
+			};
+			name = Release;
+		};
+		222C80A928CA45C90039140D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 647MFA6TDC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sevio-Correa.Dynamic-IslandsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dynamic Islands";
+			};
+			name = Debug;
+		};
+		222C80AA28CA45C90039140D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 647MFA6TDC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sevio-Correa.Dynamic-IslandsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dynamic Islands";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		222C807928CA45C70039140D /* Build configuration list for PBXProject "Dynamic Islands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222C80A028CA45C90039140D /* Debug */,
+				222C80A128CA45C90039140D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		222C80A228CA45C90039140D /* Build configuration list for PBXNativeTarget "Dynamic Islands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222C80A328CA45C90039140D /* Debug */,
+				222C80A428CA45C90039140D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		222C80A528CA45C90039140D /* Build configuration list for PBXNativeTarget "Dynamic IslandsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222C80A628CA45C90039140D /* Debug */,
+				222C80A728CA45C90039140D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		222C80A828CA45C90039140D /* Build configuration list for PBXNativeTarget "Dynamic IslandsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222C80A928CA45C90039140D /* Debug */,
+				222C80AA28CA45C90039140D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 222C807628CA45C70039140D /* Project object */;
+}
